@@ -6,10 +6,10 @@ if(isDampnerOn){
 	//Going clockwise
 	if(!isQE_Down){
 		if(phy_angular_velocity > deadzone){
-			physics_apply_torque(-torque_Magnitude*dampMultiplier);
+			physics_apply_torque(-thruster_Torque*dampMultiplier);
 		}
 		else if(phy_angular_velocity < -deadzone){
-			physics_apply_torque(torque_Magnitude*dampMultiplier);
+			physics_apply_torque(thruster_Torque*dampMultiplier);
 		}
 	}
 	
@@ -18,7 +18,7 @@ if(isDampnerOn){
 			var length = sqrt((phy_linear_velocity_x*phy_linear_velocity_x) + (phy_linear_velocity_y *phy_linear_velocity_y));
 			var normal_x = phy_linear_velocity_x/length;
 			var normal_y = phy_linear_velocity_y/length;
-			var magnitude = -speed_Max;
+			var magnitude = -thruster_Force;
 	
 			/*
 			vx = (ex - px) = 256
@@ -32,7 +32,7 @@ if(isDampnerOn){
 	}
 }
 
-camera_set_view_angle(view_camera[0],phy_rotation);
+
 
 isWASD_Down = false;
 isQE_Down = false;

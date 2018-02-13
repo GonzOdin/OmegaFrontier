@@ -39,20 +39,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "adaba6cf-7827-4faa-b547-717789fedd8a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "15",
-            "varName": "speed_Max",
-            "varType": 0
-        },
-        {
             "id": "7934a658-5f26-4d50-9ad6-17e9eec5ab88",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -99,20 +85,6 @@
             "value": "\"IDLE\", \"MOVE\", \"ATTACK\", \"TAKE_DAMAGE\", \"DIE\"",
             "varName": "animation_Set_Array",
             "varType": 6
-        },
-        {
-            "id": "fe944b77-dce2-484e-87c1-4090eefcad6e",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "10",
-            "varName": "torque_Magnitude",
-            "varType": 0
         }
     ],
     "solid": false,

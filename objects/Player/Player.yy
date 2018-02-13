@@ -93,6 +93,16 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "e55745c2-8239-4b4d-90d7-923a93aeb758"
+        },
+        {
+            "id": "67c8197b-dbff-4c36-bdcc-06d5d05cec26",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 32,
+            "eventtype": 9,
+            "m_owner": "e55745c2-8239-4b4d-90d7-923a93aeb758"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -100,7 +110,7 @@
     "parentObjectId": "9d28c764-b217-462f-b509-c96f8ddac83c",
     "persistent": false,
     "physicsAngularDamping": 0.25,
-    "physicsDensity": 0.6,
+    "physicsDensity": 0.3,
     "physicsFriction": 0.2,
     "physicsGroup": 1,
     "physicsKinematic": false,
@@ -137,7 +147,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "950",
+            "value": "10",
             "varName": "thruster_Force",
             "varType": 0
         },
@@ -151,7 +161,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "950",
+            "value": "10",
             "varName": "thruster_Torque",
             "varType": 0
         }

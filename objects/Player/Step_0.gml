@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(isDampnerOn){
 	var dampMultiplier = 1.0;
-	var deadzone = 0.1;
+	var deadzone = 0.3;
 	//Going clockwise
 	if(!isQE_Down){
 		if(phy_angular_velocity > deadzone){

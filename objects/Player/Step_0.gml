@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(isDampnerOn){
+if(isDampenerOn){
 	var dampMultiplier = 1.0;
 	var deadzone = 0.3;
 	//Going clockwise

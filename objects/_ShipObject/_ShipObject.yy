@@ -63,7 +63,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "True",
-            "varName": "isDampnerOn",
+            "varName": "isDampenerOn",
             "varType": 3
         }
     ],

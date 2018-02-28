@@ -267,6 +267,25 @@
             }
         },
         {
+            "Key": "439a8c6d-fb3b-44d7-b2ca-f8ad14159b2d",
+            "Value": {
+                "id": "a6a84e80-c298-41b3-8054-35a1bc985435",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite51\/sprite51.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4ed3c2d8-6397-468a-ac0e-2c40d9ff7f63",
             "Value": {
                 "id": "e616241f-4898-4eff-bb28-46ef486a6f56",

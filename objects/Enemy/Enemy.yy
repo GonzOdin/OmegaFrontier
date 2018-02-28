@@ -87,7 +87,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "400",
+            "value": "150",
             "varName": "thruster_Force",
             "varType": 0
         },
@@ -101,7 +101,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "400",
+            "value": "200",
             "varName": "thruster_Torque",
             "varType": 0
         }

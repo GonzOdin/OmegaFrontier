@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-zoom_MIN = 1;
-zoom_MAX = 20;
-zoom_Speed = 0.5;
-camera_Zoom = 15;
+draw_text(0,0,flock_center_x);
+draw_text(0,15,flock_center_y);

@@ -110,7 +110,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/Enemy_Group\/Enemy_Group.yy",
+                "resourcePath": "objects\/Enemy_Flock\/Enemy_Flock.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -188,6 +188,25 @@
                 ],
                 "resourcePath": "objects\/GameParameters\/GameParameters.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2a4992e1-1796-4f27-86dc-87985cf92ac4",
+            "Value": {
+                "id": "db399ff7-d7ca-4510-b562-365dd50f6d38",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/vectorLength\/vectorLength.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -419,6 +438,25 @@
             }
         },
         {
+            "Key": "8c06e461-407b-4665-91e3-01e0bff4ff1d",
+            "Value": {
+                "id": "610f49cb-db4b-4576-ac6a-f35431662474",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/dAngleBetween\/dAngleBetween.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8f713e06-7859-42cd-b7ca-36fe2340d6a6",
             "Value": {
                 "id": "53ddd52f-90b6-4da7-8253-5fd6b3cc8133",
@@ -568,6 +606,25 @@
                 ],
                 "resourcePath": "sprites\/sprite3\/sprite3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c24008c6-b285-4bf4-a16d-3c547d64609b",
+            "Value": {
+                "id": "76dd89fd-430d-4e0c-9e6b-0f4db0112eb5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/Enemy_Bullet\/Enemy_Bullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -724,7 +781,8 @@
         }
     ],
     "script_order": [
-        
+        "8c06e461-407b-4665-91e3-01e0bff4ff1d",
+        "2a4992e1-1796-4f27-86dc-87985cf92ac4"
     ],
     "tutorial": ""
 }

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-zoom_MIN = 1;
-zoom_MAX = 20;
-zoom_Speed = 0.5;
-camera_Zoom = 15;
+if(!fired){
+	physics_apply_local_force(0,0,1000,0);
+	fired = !fired;
+}

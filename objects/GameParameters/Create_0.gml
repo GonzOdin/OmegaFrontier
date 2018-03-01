@@ -3,4 +3,4 @@
 zoom_MIN = 1;
 zoom_MAX = 20;
 zoom_Speed = 0.5;
-camera_Zoom = 15;
+camera_Zoom = 5;
